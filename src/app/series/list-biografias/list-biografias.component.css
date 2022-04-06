@@ -1,0 +1,30 @@
+.example-card{
+    width: 900px;
+    height: 400px;
+    background: #000;
+    margin: 40px auto;
+    margin-bottom: 0;
+    border-radius: 20px;
+    overflow: hidden;
+}
+mat-card-header{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+mat-card-content{
+    display: flex;
+}
+.card-img{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+    max-height: 350px;
+    border-radius: 10px;
+}
+.card-text{
+    width: 60%;
+    margin-left: 40px;
+    max-height: 100%;
+}
+
